@@ -1,0 +1,68 @@
+<!doctype html>
+<html ng-app>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Field Validations by agnislav</title>
+
+    <link rel="stylesheet" href="../stylesheets/styles.css">
+    <link rel="stylesheet" href="../stylesheets/github-light.css">
+    <link rel="stylesheet" href="../stylesheets/validation.css">
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Field Validations</h1>
+        <p></p>
+
+        <p class="view"><a href="https://github.com/agnislav/field-validations">View the Project on GitHub <small>agnislav/field-validations</small></a></p>
+
+
+        <ul>
+          <li><a href="https://github.com/agnislav/field-validations/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/agnislav/field-validations/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/agnislav/field-validations">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <article>
+        <h1>2 states validation</h1>
+
+        <section>
+          <h2>Simple realtime</h2>
+          <ul>
+            <li>required</li>
+            <li>minimal length: 5 <symbols></symbols></li>
+          </ul>
+          <form name="realtime2states">
+            <input ng-model="test1" required ng-minlength="5"/>
+            <input type="submit">
+          </form>
+        </section>
+
+        <section>
+          <h2>Simple on blur (leave the field)</h2>
+          <ul>
+            <li>required</li>
+            <li>minimal length: 5 <symbols></symbols></li>
+          </ul>
+          <form name="realtime2states">
+            <input ng-model="test2" required ng-minlength="5" ng-model-options="{ updateOn: 'blur' }"/>
+            <input type="submit">
+          </form>
+        </section>
+
+      </article>
+      <footer>
+        <p>This project is maintained by <a href="https://github.com/agnislav">agnislav</a></p>
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="javascripts/scale.fix.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.min.js"></script>
+    
+  </body>
+</html>

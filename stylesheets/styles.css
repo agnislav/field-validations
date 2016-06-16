@@ -223,7 +223,7 @@ header ul a strong {
   color:#222;
 }
 
-section {
+article {
   width:500px;
   float:right;
   padding-bottom:50px;
@@ -255,7 +255,7 @@ footer {
     margin:0;
   }
 
-  header, section, footer {
+  header, article, footer {
     float:none;
     position:static;
     width:auto;
@@ -265,7 +265,7 @@ footer {
     padding-right:320px;
   }
 
-  section {
+  article {
     border:1px solid #e5e5e5;
     border-width:1px 0;
     padding:20px 0;
